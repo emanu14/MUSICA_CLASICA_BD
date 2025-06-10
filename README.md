@@ -21,6 +21,8 @@ EXEC Catalogue.uspInsertPiece
 	@Movements = '["I. Poco sostenuto – Vivace","II. Allegretto","III. Presto – Assai meno presto","IV. Allegro con brio"]';
 GO
 
+![image](https://github.com/user-attachments/assets/553de38d-46e0-4551-9a14-fd2d13a9e06e)
+
 Para insertar RECORDINGS, usar el procedimiento Catalogue.uspInsertRecording. Es necesario pasar JSONs con los IDs de los intérpretes (conductor, ensamble, solista) y los IDs de los movimientos de la pieza. Nótese que los links deben corresponder a los movimientos de la pieza, en este caso, son 4 movimientos. Por ejemplo:
 
 EXEC Catalogue.uspInsertRecording
@@ -30,3 +32,6 @@ EXEC Catalogue.uspInsertRecording
     @CodesYoutube = '["CJT90o_89wU","3J4nPes_V3k","Q6cfuTkQE7s","-732aQO7A-M"]',
     @CodesSpotify = '["5fP93DIqPgCNgLbquhUm6y","72JO99FDTqAVmfBPlwtUfk","2jnceUbwp0glgRaqHIUETw","5rt7DmygVh2dFgYAYn032t"]';
 GO
+
+![image](https://github.com/user-attachments/assets/069c0a8b-f312-4617-9208-f68f61819d69)
+

@@ -14,8 +14,7 @@ Para insertar COMPOSERS y PERFORMERS, usar el comando INSERT.
 Para insertar PIECES, usar el procedimiento Catalogue.uspInsertPiece. Es necesario que @Composer y @TypePiece existan con ese nombre en las tablas COMPOSERS y TYPESPIECES. Por ejemplo:
 
 EXEC Catalogue.uspInsertPiece
-	
- @Name = 'Symphony No. 7 in A Major, Op. 92',
+	@Name = 'Symphony No. 7 in A Major, Op. 92',
 	@Composer = 'Ludwig van Beethoven',
 	@YearPublished = 1813,
 	@TypePiece = 'Symphony',
